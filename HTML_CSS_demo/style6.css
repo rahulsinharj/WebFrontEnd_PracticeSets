@@ -1,0 +1,14 @@
+/* Setting Div PADDING */
+
+#div1{
+    border: 2px solid red;
+    padding : 50px;                 /*  All Sides padding    */
+
+    /* padding: 50px 10px 70px 15px;  */        /* Clockwise giving padding */
+
+    /* padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 70px;
+    padding-bottom: 15px; */
+
+}

@@ -1,0 +1,44 @@
+/* BORDER Style Types - solid, double, dashed, dotted, groove, ridge */
+
+#myborder1{
+
+    border-width: 5px ;                    /* // 5px 10px          // 5px  10px  2px  7px  */
+    border-style: solid;
+    border-color: red   ;                /* // red blue green    // red  blue  green  blue   */
+
+    border-radius: 30px 0px;                /*  50px  */ 
+
+}
+
+#myborder2{
+    /* border-style: double; */
+    border: 10px double green ;             /*  Keep the order of attrubutes as "WIDTH-STYLE-COLOR"    */
+}
+
+#myborder3{
+    border-style: dotted;
+}
+
+#myborder4{
+    border-style: dashed;                   
+}
+
+#myborder5{
+    border-style: groove;               /*  This border looks very fine   */
+}
+
+#myborder6{
+    border-style: ridge;
+}
+
+#myborder7{
+    border-style: inset;           /*   outset , inset  */
+}
+
+#myborder8{
+    border-style: solid ridge dashed none;
+}
+
+#myborder9{
+    border-style: solid dashed;
+}

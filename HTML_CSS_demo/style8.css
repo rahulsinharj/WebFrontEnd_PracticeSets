@@ -1,0 +1,37 @@
+/* Setting TEXT properties inside DIV */
+
+#mytext{
+    width: 500px;
+    border: 5px solid rgba(68, 32, 168, 0.719);
+    margin: 30px;
+    padding: 30px;
+
+    text-align: justify;                    /* center, justify, left, right  */
+
+    text-decoration: underline;
+
+    text-transform: capitalize;             /*  capitalize , uppercase */
+
+    /* line-height: 40px; */                /*  upar niche wale Lines ke bich me gap aajayega */
+
+    text-indent: 50px;                      /*  first word 50px space ke baad start hoga */
+
+    /* letter-spacing: 5px; */
+    /* word-spacing: 5px; */
+
+}  
+
+#shadowtext{
+    border: 3px solid brown ;
+    font-size: 50px;
+
+    text-shadow: 7px -12px 6px red;        /*  First it will ask for 1.distance of HORIZONTAL shadow, 2.distance of VIRTICAL shadow -> These two things can also be NEGATIVE */     
+                                                    /* 3.kitna pixel BLURR hai , 4.Shadow ka COLOR  */           
+}       
+
+#textmode1{
+    width: 500px;
+    border: 3px solid purple ;
+    
+    writing-mode: vertical-rl;              /*  vertical-lr , vertical-rl  */
+}

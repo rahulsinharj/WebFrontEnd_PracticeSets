@@ -1,0 +1,23 @@
+/* Difference between different SELECTORS - on Elment, on Class, on ID */
+body{
+    background-color: plum;
+}
+
+p{
+    color: linen;
+} 
+
+.mypara{
+    color: green;
+    font-size: 30px;
+}
+
+#p3{
+    color: red;
+    font-size: 45px ;
+    text-decoration: underline;
+} 
+
+
+  
+

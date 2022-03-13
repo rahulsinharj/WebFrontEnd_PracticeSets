@@ -1,0 +1,36 @@
+/* Setting LINK Styles - link(for showing Link without clicked), visited(when clicked), hover, active(during clicking) */
+
+a{                                          /*  Applying Selector on ELEMENT  */
+    font-size: 25px;
+    text-decoration: none;                  /*  Taaki unedrlined Link naa dikhe  */
+}
+
+a:link{
+    color: green;
+}
+a:visited{
+    color: blueviolet;
+}
+a:hover{
+    color: orange;
+}
+a:active{
+    color: red;
+}
+
+
+#mylink:link{
+    color: green;
+}
+#mylink:visited{
+    color: blueviolet;
+}
+
+#mylink:hover{
+    color: orange;
+}
+
+#mylink:active{
+    color: red;
+}
+

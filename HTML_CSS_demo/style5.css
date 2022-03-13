@@ -1,0 +1,13 @@
+/* Setting DIV Height and Width */
+
+#div1{
+    background-color: yellow;
+    height: 500px;
+    width : 80%;        /*  500px  */
+    
+    min-width: 300px;
+    max-width: 170px;
+
+    border: 6px solid gold;
+    box-shadow: 15px 15px 40px 5px;         /*  Box Shadow  => HorizontalDist - VirticalDist - Shadow - Kitna aur failega */
+}                                                                                                                           

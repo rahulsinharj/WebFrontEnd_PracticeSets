@@ -1,0 +1,27 @@
+/* Setting Div MARGIN */
+
+body{
+    border: 5px dotted black;
+    padding: 20px;
+}
+
+.div1{
+    border: 1px solid red;
+}
+
+#marg{
+/*  margin: 50px;   /*                            /*  For All Sides */
+
+/*  margin: 50px 40px 20px 30px; */
+
+/*  margin-top: -50px;                          
+    margin-right: 40px;
+    margin-bottom: 20px;
+    margin-left: 30px;      */
+
+    width: 50%;
+
+    margin: 30px auto   ;               /* upar aur niche se 30px margin, and left-right se margin auto-auccording to page  */
+
+
+}

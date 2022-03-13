@@ -1,0 +1,21 @@
+/* Adding BACKGROUND IMAGE or Color */
+
+#divbgimg{
+    background-image: url('images/bgimage3.jpg');
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-position: right top; */
+    background-position: center center;
+    background-size: cover;                              /* background-size: 100% 100%; */
+    background-attachment: fixed;                  /* This will keep the image fixed non-movable    */
+
+    font-style: italic;
+    color: aqua;
+}
+
+#divbgcolor{
+    background-color: gold;
+    color :brown;
+    font-weight: bold;
+}

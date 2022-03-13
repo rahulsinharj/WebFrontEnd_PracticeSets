@@ -1,0 +1,40 @@
+/* CSS FLEX property */
+
+.flex-container{
+    background-color: aquamarine;
+    height: 70vh;
+
+    display: flex;
+    /* flex-direction: column;  */                   /*        row  */
+    flex-wrap: wrap;
+
+    justify-content: space-around;                  /*  center , flex-start , flex-end , space-between , space-around  */
+
+   /* align-items: stretch;     */                  /*  center , stretch , flex-start , flex-end  */
+    align-content: flex-start;                      /*  center , flex-start , flex-end  */
+}
+
+.flex-child1{
+    /* height: 100px; */
+    width: 120px; 
+    background-color: blue;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+
+    display: inline-block;
+
+}
+
+.flex-child2{
+    /* height: 100px; */
+    width: 120px; 
+    background-color: red;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;  
+
+    display: inline-block;
+} 

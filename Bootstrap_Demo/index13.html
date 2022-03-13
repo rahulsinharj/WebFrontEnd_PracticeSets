@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- For ICONS     -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <title>Bootstrap Example</title>
+</head>
+
+<body>
+    <!-- Using Bootstrap ICONS <i> , 
+        and INLINE Block , 
+        and Height % in a DIV , "h-80" "w-50"  of DIV  , 
+        and "fs-1" "fw-bold" of FONT -->
+
+    <div class="container">
+        <div class="row">
+          <div class="col-12">
+
+            <div style="height: 100px; background-color:linen">
+                <div class="h-25 w-25 d-inline-block" style="width: 120px; background-color:plum">Height 25%</div>
+                <div class="h-50 d-inline-block" style="width: 120px; background-color: plum">Height 50%</div>
+                <div class="h-75 d-inline-block" style="width: 120px; background-color: plum">Height 75%</div>
+                <div class="h-100 d-inline-block" style="width: 120px; background-color: plum">Height 100%</div>
+            </div>
+
+            <p style="font-size: 50px;">Rahul</p>
+
+            <!-- "fs-1"  means h1-according font-size -->
+            <div class="fs-1">                              <!--   <div style="height: 100px; font-size: 70px; color: red;" > </div> -->
+                <i class="bi bi-chat-square-text-fill text-primary"></i>
+                <i class="bi bi-trash text-danger"></i>
+                <i class="bi bi-tools"></i>
+                <i class="bi bi-telephone-forward text-success"></i>
+                <i class="bi bi-sliders"></i>
+            </div>  <br>
+                    
+            <!-- "lh" means line heights in between -->
+            <div class="border border-5 border-success h-80 w-75 bg-warning fs-5 fw-bold text-center m-3 p-4">
+                <p class="lh-1">This is a long paragraph written to show how the line-height of an element is affected by our utilities. Classes are applied to the element itself or sometimes the parent element. These classes can be customized as needed with our utility API.</p>
+                <p class="lh-sm">This is a long paragraph written to show how the line-height of an element is affected by our utilities. Classes are applied to the element itself or sometimes the parent element. These classes can be customized as needed with our utility API.</p>
+                <p class="lh-base">This is a long paragraph written to show how the line-height of an element is affected by our utilities. Classes are applied to the element itself or sometimes the parent element. These classes can be customized as needed with our utility API.</p>
+                <p class="lh-lg">This is a long paragraph written to show how the line-height of an element is affected by our utilities. Classes are applied to the element itself or sometimes the parent element. These classes can be customized as needed with our utility API.</p>
+            </div>
+
+<!--
+        border :    border-5        => having border = 5 
+                    border-success  => having border OUTLINE color = green 
+        
+        h-80 w-75       => having DIV height = 80 , and width = 75
+        bg-warning      => having background color of div = green  
+            
+        fs-5            => having FONT Size = 5 (means equivalent to h5 heading text )  
+        fw-bold         => having FONT Weight = bold
+        text-center     => having FONT Text in Center
+        m-3             => having Margin outside DIV = 3 (Means Outside the DIV boundry)
+        p-4             => having Padding inside DIV = 4 (Means Inside the DIV boundry)
+
+ -->
+
+
+          </div>
+        </div>
+    </div>
+
+    <br><br>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
